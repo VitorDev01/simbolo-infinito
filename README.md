@@ -18,8 +18,8 @@
        justify-content: center;
      }
      body {
-       width: 100vw;
-       height: 100vh;
+    
+
        background: black;
        
       
