@@ -66,11 +66,11 @@
      h1 {
         font-family: serif;
         font-size:20px;
-        height:50px;
-        padding: -10px;
+
+    
         color: white;
-        margin: 90px;
-        display: top;
+     
+        display: fixed;
         text-align: center;
      }
    </style>
@@ -82,8 +82,8 @@
     <h1>"Acreditar em si mesmo leva a um destino INFINITO ,Acreditar que falhou é o fim da sua jornada."</h1>
     <br>
     <br>
-    <br>
-    <br>
+
+
     <h1><i>Sarah Meredith</i></h1>
     <div class="svgBox">
     <svg width="300px" height="200px" viewBox="0 0 187.3 93.7" >
