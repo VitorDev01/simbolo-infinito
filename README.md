@@ -129,8 +129,12 @@
   <body>
     
     <br>
-    <h1>"Acreditar em si mesmo leva a um destino</h1><h2>INFINITO</h2>
-    <h1>Acreditar que falhou é o fim da sua jornada."</h1>
+  
+     <h1>"Acreditar em si mesmo leva a um destino</h1>
+     <br>
+     <h2>INFINITO</h2>
+     <br>
+     <h1>Acreditar que falhou é o fim da sua jornada."</h1>
     <br>
     <h1><i>Sarah Meredith</i></h1>
     <div class="svgBox">
