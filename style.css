@@ -1,0 +1,119 @@
+ *{
+       margin: 0 auto;
+       padding: 0 auto;
+       box-sizing: border-box;
+       position: relative;
+       
+       
+     }
+     .flex {
+       display: flex;
+       align-items: center;
+       justify-content: center;
+     }
+     body {
+       width: 100vw;
+       height: 100vh;
+       background: black;
+       
+      
+     }
+     .svgBox  {
+       width: 300px;
+       height: 200px;
+     }
+     .svgBox svg {
+       fill: none;
+       stroke-width: 10;
+       transform: scale(2);
+       stroke: url(#col);
+       stroke-dasharray: 60 172;
+       stroke-linecap: round;
+       animation: oj 4s linear infinite;
+       position: absolute;
+       top: 0;
+       left: 0;
+     }
+     @keyframes oj {
+       0% {
+         stroke-dashoffset: 0;
+       }
+       100% {
+         stroke-dashoffset: 232;
+       }
+     }
+     .svgBox svg:nth-of-type(1) {
+       fill: none;
+       stroke-width: 10;
+       transform: scale(2);
+       stroke: url(#col);
+       stroke-dasharray: 60 172;
+       stroke-linecap: round;
+       animation: oj 4s linear infinite;
+       position: absolute;
+       top: 0;
+       left: 0;
+     }
+     .svgBox svg:nth-of-type(2) {
+       filter: blur(10px);
+     }
+     h1 {
+        font-family: serif;
+        font-size:30px;
+        height:50px;
+        padding: -10px;
+        color: white;
+        margin: 90px;
+        display: top;
+        text-align: center;
+     }
+     h2 {
+        font-family: serif;
+        font-size:60px;
+        font-weight: bold;
+        height:70px;
+        color: white;
+        margin: 50px;
+        text-align: center;
+      }
+     #bot{
+        background: #03e9f4;
+        color: black;
+        font-family: serif;
+        border-radius: 20px;
+        box-shadow: 0 0 5px #03e9f4,
+
+              0 0 25px #03e9f4,
+
+              0 0 50px #03e9f4,
+
+              0 0 100px #03e9f4;
+       border:none;
+       margin: 220px;
+       display: top;
+       text-align: center;
+       font-size:15px;
+       height: 100px ;
+       width: 100px ;
+       text-align: center;
+     }
+     #bo {
+        background: #ff0000;
+        color: white;
+        font-family: serif;
+        border-radius: 20px;
+        box-shadow: 0 0 5px #ff0000,
+
+              0 0 25px #ff0000,
+
+              0 0 50px #ff0000,
+
+              0 0 100px #ff0000;
+        border:none;
+        margin: 120px;
+        display: top;
+        text-align: center;
+        font-size:15px;
+        height: 100px ;
+        width: 100px ;
+     }
